@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<h1 id="h1text" class="text-4xl font-bold bg-#0d9488 text-center mt-4">Money Master</h1>
+
+<body>
+    <div class="flex mt-8 p-8">
+        <div class="w-8/12  p-8"> <img class=" " src="Pexels Photo by Karolina Grabowska@2x.png" alt="">
+        </div>
+        <div class=" w-8/12 p-8 bg-slate-200">
+            <div class="mx-auto flex flex-col gap-y-5 items-center">
+
+                <!-- Income Section  -->
+                <h1 class="text-center">Income</h1>
+                <span>Income: <input id="income-field" class="w-48" type="text"></span>
+
+                <!-- Expenses Section -->
+
+                <h1 class="text-center">Expenses</h1>
+
+                <span>Food: <input id="food-field" type="text"></span>
+
+                <span>Rent: <input id="rent-field" type="text"></span>
+
+                <span>Clothes: <input id="clothes-field" clothes-field type="text"></span>
+
+                <button id="total-calculate" class="bg-blue-600">Calculate</button>
+
+                <h1>Total Expenses: $ <span id="final-expense">00</span></h1>
+
+                <h1>Balance: $ <span id="total-balance">00</span></h1>
+
+                <span> <input id="save-field" class="w-20" type="text" name="" id="">% <button id="btn-save"
+                        class="bg-blue-600">Save</button> </span>
+
+                <h1>Saving Amount: <span id="save-amount">00</span></h1>
+
+                <h1>Remaining Balance: <span id="remaining-balance">00</span></h1>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <!-- <script src="JS/utility.js"></script> -->
+    <script src="JS/master.js"></script>
+</body>
+
+</html>
